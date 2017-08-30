@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       html {height: 100%;}
-      body {display: flex; justify-content: center; align-items: center; height: 100%; margin: 0;}
+      body {margin: 0}
+      .section {height: 110vh; width: 100%; display: flex; justify-content: center; align-items: center;}
+      .section:first-child, .section:last-child {height: 100vh;}
       #logo { max-width: 75%; max-height: 80%;}
+      .section--mail {background: rgb(255, 0, 121)}
+      #mail {color: white; text-decoration: none; font-family: sans-serif; font-weight: 800; font-size: 5vw;}
+      .section--video {background: black}
+      #video { width: 90vw; height: 50vw; }
     </style>
   </head>
   <body>
-    <img id='logo' alt='Club Poespas' src='poespas-logo.png' />
+    <div class='section section--logo'>
+      <img id='logo' alt='Club Poespas' src='poespas-logo.png' />
+    </div>
+    <div class='section section--mail'>
+      <a id='mail' href='mailto:miauw@clubpoespas.com'>miauw@clubpoespas.com</a>
+    </div>
+    <div class='section section--video'>
+      <iframe id='video' src="https://www.youtube.com/embed/m4hfHidage8" frameborder="0" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
