@@ -3,27 +3,30 @@
   <head>
     <title>Club Poespas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
     <style>
       html {height: 100%;}
       body {margin: 0}
-      .section {height: 110vh; width: 100%; display: flex; justify-content: center; align-items: center;}
+      .section {height: 110vh; width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;}
       .section:first-child, .section:last-child {height: 100vh;}
       #logo { max-width: 75%; max-height: 80%;}
-      .section--mail {background: rgb(255, 0, 121)}
-      #mail {color: white; text-decoration: none; font-family: sans-serif; font-weight: 800; font-size: 5vw;}
+      .section--contact {background: rgb(255, 0, 121)}
+      .section--contact a {color: white; text-decoration: none; font-family: sans-serif; font-weight: 800; font-size: 5vw;}
       .section--video {background: black}
-      #video { width: 90vw; height: 50vw; }
+      #video { width: 90vw; height: 50vw;}
     </style>
   </head>
   <body>
     <div class='section section--logo'>
       <img id='logo' alt='Club Poespas' src='poespas-logo.png' />
     </div>
-    <div class='section section--mail'>
-      <a id='mail' href='mailto:miauw@clubpoespas.com'>miauw@clubpoespas.com</a>
-    </div>
     <div class='section section--video'>
       <iframe id='video' src="https://www.youtube.com/embed/m4hfHidage8" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class='section section--contact'>
+      <a id='twitter' href='https://www.facebook.com/ClubPoespas/'><i class='fa fa-facebook' /></i> /ClubPoespas</a><br />
+      <a id='instagram' href='https://www.instagram.com/clubpoespas/'><i class='fa fa-instagram' /></i> @clubpoespas</a><br />
+      <a id='mail' href='mailto:miauw@clubpoespas.com'>miauw@clubpoespas.com</a>
     </div>
   </body>
 </html>
