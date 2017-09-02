@@ -11,7 +11,7 @@
       .section:first-child, .section:last-child {height: 100vh;}
       #logo { max-width: 75%; max-height: 80%;}
       .section--contact {background: rgb(255, 0, 121)}
-      .section--contact a {color: white; text-decoration: none; font-family: sans-serif; font-weight: 800; font-size: 5vw;}
+      .section--contact > * {color: white; text-decoration: none; font-family: sans-serif; font-weight: 800; font-size: 5vw; margin: 1.5vh 0}
       .section--video {background: black}
       #video { width: 90vw; height: 50vw;}
     </style>
@@ -24,8 +24,9 @@
       <iframe id='video' src="https://www.youtube.com/embed/m4hfHidage8" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class='section section--contact'>
-      <a id='twitter' href='https://www.facebook.com/ClubPoespas/'><i class='fa fa-facebook' /></i> /ClubPoespas</a><br />
-      <a id='instagram' href='https://www.instagram.com/clubpoespas/'><i class='fa fa-instagram' /></i> @clubpoespas</a><br />
+      <a id='twitter' href='https://www.facebook.com/ClubPoespas/'><i class='fa fa-facebook' /></i> /ClubPoespas</a>
+      <a id='instagram' href='https://www.instagram.com/clubpoespas/'><i class='fa fa-instagram' /></i> @clubpoespas</a>
+      <a href='tel:+31641307669'><span><i class='fa fa-mobile-phone' /></i> +31 6 41 30 76 69</span></a>
       <a id='mail' href='mailto:miauw@clubpoespas.com'>miauw@clubpoespas.com</a>
     </div>
   </body>
